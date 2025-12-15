@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .today{
+        font-weight: 40px;
+    }
+}
+
+.img{
+    img{
+        width: 40px;
+    }
+}
+
+.people{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+ .card1{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    background: #F3F4F5;
+
+    .man{
+        img{
+            width: 90px;
+            position: relative;
+            bottom: 30px;
+        }
+    }
+    .timers{
+        img{
+            width: 120px;
+        }
+    }
+    button{
+        background: #9757D7;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+    }
+ }
+.arrow{
+    img{
+        width: 40px;
+    }
+}
+
+
+#movies{
+    padding-top: 140px;
+}
+.mov-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.mov-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+}
+.movs{
+    .im{
+        img{
+            width: 220px;
+        }
+    }
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .text{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        button{
+            border-color: #45B26B;
+            background: white;
+            width: 70px;
+            height: 30px;
+            border-radius: 7px;
+            color: #45B26B;
+        }
+    }
+    .text2{
+        display: flex;
+        align-items: center;
+        margin-right: 70px;
+    }
+    .text3{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        .tec{
+            display: flex;
+            align-items: center;
+        }
+        .btn{
+            button{
+                background: #3772FF33;
+                color: #3772FF;
+                padding: 9px;
+                border-radius: 7px;
+                border: none;
+            }
+        }
+    }
+}
+
+#nft{
+    margin-top: 300px;
+    background: #F6F7F8;
+}
+
+.market{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nft-text{
+.nfts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+    p{
+        color: gray;
+    }
+}
+}
